@@ -1,0 +1,82 @@
+/* Basic reset and container styling */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #2d3436;
+    margin-bottom: 30px;
+}
+
+/* New listing button styling */
+form button {
+    background-color: #00b894;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #00a187;
+}
+
+/* Card styling */
+.col {
+    margin-bottom: 20px;
+}
+
+.card-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+    background-color: white;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-text {
+    color: #2d3436;
+    font-size: 1.1rem;
+    margin: 0;
+} 
+
+.listing-link{
+    text-decoration: none;
+}
+
+.listing-link:hover{
+    text-decoration: underline;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.5;
+    transition: opacity 0.3s;
+    color: white;
+}
+
+.show-img{
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+
+.show-img:hover{
+    height: 30vh;
+}
